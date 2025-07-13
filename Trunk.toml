@@ -1,0 +1,11 @@
+[build]
+target = "index.html"
+dist = "dist"
+public_url = "/"
+
+[watch]
+watch = ["src", "style"]
+ignore = ["dist"]
+
+[serve]
+port = 8000
